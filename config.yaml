@@ -1,0 +1,23 @@
+data:
+  ticker: "AAPL"
+  period: "5y"
+  interval: "1d"
+  csv_path: "artifacts/stock_data.csv"
+
+features:
+  rsi_window: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  bb_window: 20
+  bb_std: 2
+  ma_windows: [5, 10, 20]
+  lags: [1, 2, 3, 4, 5]
+  flat_threshold_bps: 10
+
+training:
+  test_size_days: 250
+  models: ["logreg", "rf"]
+  random_state: 42
+
+artifacts_dir: "artifacts"

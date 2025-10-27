@@ -1,0 +1,15 @@
+numpy
+pandas
+yfinance
+scikit-learn
+ta
+matplotlib
+seaborn
+streamlit
+pyyaml
+joblib
+nltk
+vaderSentiment
+tensorflow
+transformers
+torch        

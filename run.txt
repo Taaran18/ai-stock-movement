@@ -1,0 +1,4 @@
+python data_fetch.py --ticker TSLA
+python train_model.py --ticker TSLA
+python predict.py --ticker TSLA
+streamlit run dashboard.py

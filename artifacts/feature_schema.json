@@ -1,0 +1,23 @@
+[
+  "Volume",
+  "Return",
+  "MA_5",
+  "MA_5_pct",
+  "MA_10",
+  "MA_10_pct",
+  "MA_20",
+  "MA_20_pct",
+  "RSI",
+  "MACD",
+  "MACD_signal",
+  "MACD_diff",
+  "BB_high",
+  "BB_low",
+  "BB_pct",
+  "Ret_lag_1",
+  "Ret_lag_2",
+  "Ret_lag_3",
+  "Ret_lag_4",
+  "Ret_lag_5",
+  "Close"
+]
